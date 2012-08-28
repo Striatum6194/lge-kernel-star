@@ -1,7 +1,7 @@
 #
 # Automatically generated make config: don't edit
 # Linux kernel version: 2.6.32.55
-# Tue Aug 21 23:15:56 2012
+# Tue Aug 28 02:59:03 2012
 #
 CONFIG_ARM=y
 CONFIG_SYS_SUPPORTS_APM_EMULATION=y
@@ -1615,7 +1615,11 @@ CONFIG_ANDROID_LOW_MEMORY_KILLER=y
 #
 # CONFIG_RAR_REGISTER is not set
 # CONFIG_IIO is not set
-CONFIG_ZRAM=y
+CONFIG_SNAPPY_COMPRESS=y
+CONFIG_SNAPPY_DECOMPRESS=y
+CONFIG_ZRAM=m
+# CONFIG_ZRAM_LZO is not set
+CONFIG_ZRAM_SNAPPY=y
 
 #
 # File systems
